@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/TenFoldGreater/Pages/static/css/main.073c9b0a.css",
-    "main.js": "/TenFoldGreater/Pages/static/js/main.989baf19.js",
+    "main.js": "/TenFoldGreater/Pages/static/js/main.6f6ffbdb.js",
     "static/js/787.c2651732.chunk.js": "/TenFoldGreater/Pages/static/js/787.c2651732.chunk.js",
     "static/media/logo.svg": "/TenFoldGreater/Pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/TenFoldGreater/Pages/index.html",
     "main.073c9b0a.css.map": "/TenFoldGreater/Pages/static/css/main.073c9b0a.css.map",
-    "main.989baf19.js.map": "/TenFoldGreater/Pages/static/js/main.989baf19.js.map",
+    "main.6f6ffbdb.js.map": "/TenFoldGreater/Pages/static/js/main.6f6ffbdb.js.map",
     "787.c2651732.chunk.js.map": "/TenFoldGreater/Pages/static/js/787.c2651732.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.989baf19.js"
+    "static/js/main.6f6ffbdb.js"
   ]
 }
