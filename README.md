@@ -2,6 +2,46 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Check commands:
+
+> node --version
+v18.17.0
+> git --version
+git version 2.27.0.windows.1
+> npm --version
+9.8.1
+
+## Create the project:
+
+> npx create-react-app react-pages --template typescript
+> cd  cd react-pages
+
+## Install the gh-pages npm package 
+
+This will allow the deploy the project in github-pages.
+
+> npm install gh-pages --save-dev
+
+After it is installed following dependency will be recorded in package.json file.
+
+```json
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+'''
+
+## Adding deploy property to the script object of package.json:
+
+'''json
+
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+  }
+'''
+## Add a "remote" that points to the GitHub repository
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -44,13 +84,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-## Push an existing repository from the command line
-
-```md
-git remote add origin https://github.com/TenFoldGreater/Pages.git
-git branch -M main
-git push -u origin main
-```
-
