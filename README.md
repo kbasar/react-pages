@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Check commands:
+## Check commands
 
 > node --version
 v18.17.0
@@ -11,12 +11,12 @@ git version 2.27.0.windows.1
 > npm --version
 9.8.1
 
-## Create the project:
+## Create the project
 
 > npx create-react-app react-pages --template typescript
 > cd  cd react-pages
 
-## Install the gh-pages npm package 
+## Install the gh-pages npm package
 
 This will allow the deploy the project in github-pages.
 
@@ -24,11 +24,12 @@ This will allow the deploy the project in github-pages.
 
 After it is installed following dependency will be recorded in package.json file.
 
-```json
+```js
+
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }
-'''
+```
 
 ## Adding deploy property to the script object of package.json:
 
@@ -38,10 +39,39 @@ After it is installed following dependency will be recorded in package.json file
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
   }
+
 '''
+
 ## Add a "remote" that points to the GitHub repository
 
+## Install DevTool
 
+> npm install @hookform/devtools -D
+
+## Install React Hook Form
+
+> npm install react-hook-form
+
+## Debug Code and Fix
+
+If the error persists, try to delete your:
+
+- 'node_module' folder
+- package-lock.json file
+- run following command to clean npm cache:
+  > npm cache clean --force
+- install packages by
+  > npm install
+- then try to update npm by
+  > npm update
+  > npm audit fix
+  > npm install -g npm@latest
+  > npm audit fix --force
+- Try using following package to update packages, but commit the current code into git.
+  > npx npm-check-updates
+    > npx ncu -u
+    > npm install
+  
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,7 +1,7 @@
 {
   "name": "react-pages",
   "version": "0.1.0",
-  "homepage": "https://github.com/TenFoldGreater/Pages",
+  "homepage": "https://kbasar.github.io/react-pages",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -13,13 +13,13 @@
     "@types/react-dom": "^18.2.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
+    "react-hook-form": "^7.45.4",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.0.0",
+    "typescript": "^5.1.6"
   }
 }
