@@ -33,7 +33,7 @@ After it is installed following dependency will be recorded in package.json file
 
 ## Adding deploy property to the script object of package.json:
 
-'''json
+'''js
 
   "scripts": {
     "predeploy":"npm run build",
@@ -51,6 +51,14 @@ After it is installed following dependency will be recorded in package.json file
 ## Install React Hook Form
 
 > npm install react-hook-form
+
+## Auto-conversation feature Off in the git settings
+
+"warning: LF will be replaced by CRLF in src/setupTests.ts"
+To turn off above warning, use this command:
+
+
+> git config --global core.autocrlf false
 
 ## Debug Code and Fix
 
